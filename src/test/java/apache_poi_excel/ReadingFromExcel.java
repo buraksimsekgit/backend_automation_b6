@@ -4,7 +4,6 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ReadingFromExcel {
@@ -33,10 +32,10 @@ public class ReadingFromExcel {
 
         // getting the last row number
         int lastRow = sheet.getLastRowNum();
-        System.out.println(lastRow);
+        System.out.println("Amount of rows are " + lastRow);
 
         // getting last cell number
         int lastCell = sheet.getRow(1).getLastCellNum();
-        System.out.println(lastCell);
+        System.out.println("Amount of cells are " + lastCell);
     }
 }
