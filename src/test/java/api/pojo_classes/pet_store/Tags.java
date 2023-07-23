@@ -5,6 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
+
 public class Tags {
 
     private int id;
