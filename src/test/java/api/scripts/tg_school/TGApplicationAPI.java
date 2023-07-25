@@ -62,7 +62,7 @@ public class TGApplicationAPI {
 
         // First we get the all the row
         List<List<Object>> queryResultList = DBUtil.getQueryResultList(query);
-        // List<List<Object>> arr { List<Object> {2,	"2000-01-01",	"john.doe@techglobal.com",	"John",	"Doe"} }
+        // List<List> arr { List<Object> {2,	"2000-01-01",	"john.doe@techglobal.com",	"John",	"Doe"} }
 
         // Then since our query will return a single row, we fetch the first element from the list of list
         // Which represents our query result
